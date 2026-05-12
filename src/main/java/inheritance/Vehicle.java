@@ -1,7 +1,10 @@
+package inheritance;
+
 public class Vehicle {
     private String color;
     private int numberOfPassengers;
     private int cargoCapacity;
+    private int maxSpeed;
 
     public String getColor() {
         return color;
@@ -25,5 +28,13 @@ public class Vehicle {
 
     public void setCargoCapacity(int cargoCapacity) {
         this.cargoCapacity = cargoCapacity;
+    }
+
+    public int getMaxSpeed() {
+        return maxSpeed;
+    }
+
+    public void setMaxSpeed(int maxSpeed) {
+        this.maxSpeed = maxSpeed;
     }
 }
